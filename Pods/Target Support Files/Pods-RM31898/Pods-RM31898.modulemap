@@ -1,0 +1,6 @@
+framework module Pods_RM31898 {
+  umbrella header "Pods-RM31898-umbrella.h"
+
+  export *
+  module * { export * }
+}

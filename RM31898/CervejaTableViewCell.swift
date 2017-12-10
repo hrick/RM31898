@@ -9,16 +9,17 @@
 import UIKit
 
 class CervejaTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var lblNome: UILabel!
+    @IBOutlet weak var lblTeor: UILabel!
+    @IBOutlet weak var ivCerveja: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
